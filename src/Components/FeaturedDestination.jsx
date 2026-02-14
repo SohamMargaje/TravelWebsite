@@ -19,18 +19,17 @@ const FeaturedDestination = () => {
   ];
 
   return (
-    <section className="px-6 md:px-16 xl:px-24 my-20">
+    <section className="px-4 md:px-16 xl:px-24 my-20">
       <Title
         title="Featured Destination"
         subTitle="Discover your handpicked locations"
       />
 
-      {/* FIXED FLEX CONTAINER */}
       <div className="flex flex-wrap justify-center md:justify-between mt-12 gap-6">
         {data.map((d) => (
           <div
             key={d.id}
-            className="w-[90%] sm:w-[45%] md:w-[30%] lg:w-[23%] bg-white rounded-xl shadow-lg hover:scale-105 transform transition-transform duration-300"
+            className="w-[95%] sm:w-[45%] md:w-[30%] lg:w-[23%] bg-white rounded-xl shadow-lg hover:scale-105 transform transition-transform duration-300"
           >
             <TravelCard
               {...d}
@@ -44,3 +43,4 @@ const FeaturedDestination = () => {
 };
 
 export default FeaturedDestination;
+

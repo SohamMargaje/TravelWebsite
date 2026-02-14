@@ -25,12 +25,12 @@ const FeaturedDestination = () => {
         subTitle="Discover your handpicked locations"
       />
 
-      {/* Flex container for 4-in-row */}
-      <div className="flex flex-wrap justify-between mt-12 gap-6">
+      {/* FIXED FLEX CONTAINER */}
+      <div className="flex flex-wrap justify-center md:justify-between mt-12 gap-6">
         {data.map((d) => (
           <div
             key={d.id}
-            className="flex-1 min-w-[220px] max-w-[25%] bg-white rounded-xl shadow-lg hover:scale-105 transform transition-transform duration-300"
+            className="w-[90%] sm:w-[45%] md:w-[30%] lg:w-[23%] bg-white rounded-xl shadow-lg hover:scale-105 transform transition-transform duration-300"
           >
             <TravelCard
               {...d}

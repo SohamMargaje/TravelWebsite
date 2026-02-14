@@ -4,7 +4,6 @@ import Home from "./Components/Home.jsx";
 import Locations from "./Components/Locations.jsx";
 import DestinationDetails from "./Components/DestinationDetails.jsx";
 
-
 function App() {
   const testimonialsRef = useRef(null);
 
@@ -19,3 +18,4 @@ function App() {
 }
 
 export default App;
+

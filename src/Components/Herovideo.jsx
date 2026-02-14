@@ -5,13 +5,15 @@ const HeroVideo = () => {
   return (
     <div className="w-screen h-screen relative overflow-hidden">
       <video
-        src={heroVideo}
         autoPlay
         loop
         muted
         playsInline
+        preload="metadata"
         className="absolute top-0 left-0 w-full h-full object-cover"
-      />
+      >
+        <source src={heroVideo} type="video/mp4" />
+      </video>
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
         <p className="bg-[#49B9FF]/50 px-4 py-1 rounded-full mb-4 text-sm">

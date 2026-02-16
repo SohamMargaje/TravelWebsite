@@ -1,16 +1,122 @@
-# React + Vite
+# 🌍 Travel Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive travel booking web application built using React.
+Users can explore destinations, view details, and book trips with a clean and interactive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* ✨ Beautiful landing page with hero video
+* 📍 Featured destinations section
+* 🎯 Exclusive offers section
+* 🧭 Dynamic routing for destination details
+* 📝 Booking form for trips
+* 💬 Testimonials section
+* 📧 Newsletter subscription with popup
+* 🔐 User authentication using Clerk
+* 📱 Fully responsive design (mobile + desktop)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React.js
+* **Routing:** React Router
+* **Styling:** Tailwind CSS
+* **Authentication:** Clerk
+* **Build Tool:** Vite
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── assets/              # Images and media
+│── components/          # All reusable components
+│   ├── Navbar.jsx
+│   ├── Home.jsx
+│   ├── FeaturedDestination.jsx
+│   ├── Exclusiveoffers.jsx
+│   ├── Testimonial.jsx
+│   ├── NewsLetter.jsx
+│   ├── Locations.jsx
+│   ├── DestinationDetails.jsx
+│── App.jsx              # Main routing setup
+│── main.jsx             # Entry point
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/travel-website.git
+```
+
+2. Navigate to project folder
+
+```
+cd travel-website
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the development server
+
+```
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+👉 https://SohamMargaje.github.io/TravelWebsite/
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots of your website here)
+
+---
+
+## 💡 Future Improvements
+
+* 🗺️ Add real-time booking system
+* 💳 Payment integration
+* 🌎 More destinations with API
+* ❤️ Wishlist feature
+* ⭐ Ratings & reviews system
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**GHOST** 😎
+Aspiring Cybersecurity Specialist & Developer
+
+---
+
+⭐ If you like this project, don’t forget to star the repo!

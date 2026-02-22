@@ -5,7 +5,7 @@ Users can explore destinations, view details, and book trips with a clean and in
 
 ---
 
-## 🚀 Features
+<h1>## 🚀 Features</h1>
 
 * ✨ Beautiful landing page with hero video
 * 📍 Featured destinations section

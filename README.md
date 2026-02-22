@@ -99,12 +99,7 @@ npm run dev
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome!
-Feel free to fork this repo and submit a pull request.
-
----
 
 
 

@@ -49,7 +49,7 @@ src/
 
 ---
 
-## ⚙️ Installation & Setup
+<h1>## ⚙️ Installation & Setup</h1>
 
 1. Clone the repository
 

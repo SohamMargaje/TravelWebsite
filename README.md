@@ -77,7 +77,7 @@ npm run dev
 
 ---
 
-## 🌐 Live Demo
+<h1>## 🌐 Live Demo</h1>
 
 👉 https://SohamMargaje.github.io/TravelWebsite/
 

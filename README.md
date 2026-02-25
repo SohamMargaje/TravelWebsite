@@ -89,7 +89,7 @@ npm run dev
 
 ---
 
-## 💡 Future Improvements
+<h1>## 💡 Future Improvements</h1>
 
 * 🗺️ Add real-time booking system
 * 💳 Payment integration

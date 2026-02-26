@@ -19,7 +19,7 @@ Users can explore destinations, view details, and book trips with a clean and in
 
 ---
 
-## 🛠️ Tech Stack
+<h1>## 🛠️ Tech Stack</h1>
 
 * **Frontend:** React.js
 * **Routing:** React Router

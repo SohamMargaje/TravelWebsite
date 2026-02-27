@@ -29,7 +29,7 @@ Users can explore destinations, view details, and book trips with a clean and in
 
 ---
 
-## 📂 Project Structure
+<h1>## 📂 Project Structure</h1>
 
 ```
 src/

@@ -105,9 +105,9 @@ npm run dev
 
 ---
 
-## 👨‍💻 Author
+<h1>## 👨‍💻 Author</h1>
 
-**GHOST** 😎
+**SOHAM** 
 Aspiring Cybersecurity Specialist & Developer
 
 ---
